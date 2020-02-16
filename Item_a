@@ -1,0 +1,29 @@
+Algoritmo "semnome"
+// [Estudos de programação]
+// Luiz Gustavo Silva Santos
+
+Var
+c, r, A, B, F, X: real
+
+Inicio
+Escreva("Insira um valor para c:")
+Leia(c)
+       limpatela
+Escreva("Insira um valor para r:")
+Leia(r)
+       Limpatela
+//Operações do cálculo
+A <- (1 / c)
+B <- ((r^2)/(4*c^2)))
+X <- (A-B)
+
+//Instruções do cálculo
+Se (X) >= 0 entao
+   F <- (RaizQ(X))
+   Escreva ("F=",F)
+Senao
+   Escreva("Raiz não pertence ao conjunto dos números Reais")
+  Fimse
+
+
+Fimalgoritmo
